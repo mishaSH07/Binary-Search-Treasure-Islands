@@ -12,7 +12,7 @@ An interactive Gradio website that visualizes the binary search algorithm as a p
 
 ## Demo video/gif/screenshot of test
 
-First Loading In:
+First View Loaded In:
 ![loadingin](images/initialss.png)
 
 Mid Binary Search:
