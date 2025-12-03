@@ -1,3 +1,15 @@
+---
+title: Treasure Islands Binary Search
+emoji: 🏴‍☠️
+colorFrom: blue
+colorTo: yellow
+sdk: gradio
+sdk_version: "4.43.0"
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # Binary Search - Treasure Islands
 
 An interactive Gradio website that visualizes the binary search algorithm as a pirate ship sailing between islands to find a hidden treasure chest.
@@ -25,7 +37,7 @@ Treasure Not Found:
 ![treasurenotfound](images/treasurenotfoundss.png)
 
 Sound Effects:
-![soundeffectshowcase](images/soundeffectshowcase.png)
+![soundeffectshowcase](images/soundeffectsshowcase.png)
 I wanted to add sound effects in the background but autoplay requires a visible audio element so I pushed down the main content instead of fully hiding it.
 
 ## Problem Breakdown & Computational Thinking
