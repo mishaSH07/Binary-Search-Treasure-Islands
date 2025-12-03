@@ -24,6 +24,10 @@ Treasure Found:
 Treasure Not Found: 
 ![treasurenotfound](images/treasurenotfoundss.png)
 
+Sound Effects:
+![soundeffectshowcase](images/soundeffectshowcase.png)
+I wanted to add sound effects in the background but autoplay requires a visible audio element so I pushed down the main content instead of fully hiding it.
+
 ## Problem Breakdown & Computational Thinking
 
 ### Decomposition: What smaller steps form your chosen algorithm?
@@ -86,7 +90,7 @@ Smaller steps which form the binary search site
 **Data types / structures**
 
 - Array (islands)
-    - GUI: numeric (Gradio 'Number')
+    - GUI: text (Gradio Textbox with comma/space separated integers)
     - Internal: 'List[int]' after parsing and sorting
 
 - Target (treasure value)
@@ -103,12 +107,23 @@ Smaller steps which form the binary search site
 
 ## Steps to Run
 
+### Locally on VSCode
 
+1. Clone the repo: https://github.com/mishaSH07/Binary-Search-Treasure-Islands/tree/main
+2. Open in VSCode
+3. Create a virtual environment
+3. Install dependencies: pip install -r requirements.txt
+4. Run the app: app.py
+5. Open the local Gradio URL shown in the terminal (typically http://127.0.0.1:7860/).
+
+### On Hugging Face
+
+1. Just visit the link: https://huggingface.co/spaces/MishaShubin/Binary-Search-Treasure-Islands
 
 ## Hugging Face Link
 
-[Treasure Islands Binary Search App]
-(https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME)
+[Binary Search Treasure Islands]
+(https://huggingface.co/spaces/MishaShubin/Binary-Search-Treasure-Islands)
 
 ## Author & Acknowledgment
 
@@ -118,6 +133,6 @@ Algorithm Used: Binary Search
 
 AI Usage Disclosure:
 - ChatGPT Level 4 was used to for:
-    - Help design gradio interface for step by step visuals and audio queues
+    - Help design gradio interface for step by step visuals and audio cues
     - Assist with the state dictionary 
     - All generated code was reviewed, tested and integrated manually into the final project
